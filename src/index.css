@@ -1,0 +1,37 @@
+body {
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #cdc;
+}
+
+html, body {
+  height: 100%;
+}
+
+.world {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #cdc;
+  padding: 2px 0;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+}
+
+.entity {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.player {
+  color: #c34;
+}
